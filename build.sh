@@ -12,6 +12,10 @@ fi;
 build_no=$((build_no+1))
 
 echo "$build_no" > build/build_no;
+
+echo "----"
+echo "----"
+
 echo "Build number $build_no"
 
 exit $RETURN_VALUE
