@@ -13,9 +13,15 @@ build_no=$((build_no+1))
 
 echo "$build_no" > build/build_no;
 
-echo "----"
-echo "----"
+env > build/env 
+
+echo "----------------------"
+echo "----------------------"
 
 echo "Build number $build_no"
+
+echo "----------------------"
+echo "----------------------"
+
 
 exit $RETURN_VALUE
