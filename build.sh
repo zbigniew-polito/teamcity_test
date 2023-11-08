@@ -18,7 +18,13 @@ env > build/env
 echo "----------------------"
 echo "----------------------"
 
-echo "Build number $build_no"
+echo "Build number : $build_no"
+echo "TeamCity env.BUILD_NUMBER : $BUILD_NUMBNER"
+echo "TeamCity env.BUILD_VCS_NUMBER : $BUILD_VCS_NUMBER"
+echo "TeamCity env.BUILD_URL : $BUILD_URL"
+
+
+echo ""
 
 echo "----------------------"
 echo "----------------------"
