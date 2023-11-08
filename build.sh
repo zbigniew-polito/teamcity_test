@@ -14,4 +14,4 @@ build_no=$((build_no+1))
 echo "$build_no" > build/build_no;
 echo "Build number $build_no"
 
-exit 1
+exit $RETURN_VALUE
