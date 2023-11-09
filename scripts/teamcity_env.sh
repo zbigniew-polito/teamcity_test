@@ -13,3 +13,5 @@ env | while IFS= read -r line;do
 done
 
 echo "UID == $UID"
+
+cat $TEAMCITY_BUILD_PROPERTIES_FILE
