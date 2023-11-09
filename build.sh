@@ -29,5 +29,7 @@ echo ""
 echo "----------------------"
 echo "----------------------"
 
+mkdir -p temp
+touch temp/touched.file
 
 exit $RETURN_VALUE
